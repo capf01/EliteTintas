@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "717234131040",
+    "project_id": "elitetintas-e3dbe",
+    "storage_bucket": "elitetintas-e3dbe.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:717234131040:android:4f115bb938b3222cae7305",
+        "android_client_info": {
+          "package_name": "devandroid.cesar.elitetintas"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBImjdPiAp8AOVcRuaIdlF2A3YUK3812ac"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:717234131040:android:aef265a53de94548ae7305",
+        "android_client_info": {
+          "package_name": "devandroid.cesar.elitetintasapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBImjdPiAp8AOVcRuaIdlF2A3YUK3812ac"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

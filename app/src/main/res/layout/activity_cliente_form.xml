@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/dark_blue">
+
+    <LinearLayout
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Tipo de Tinta -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1. Qual é o tipo de tinta que deseja utilizar?"
+            android:fontFamily="@font/poppins_bold"
+            android:textColor="@color/white" />
+        <EditText
+            android:id="@+id/tipoTintaField"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ex: Epóxi, Poliuretano"
+            android:fontFamily="@font/poppins_bold"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white" />
+
+        <!-- Área de Aplicação -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2. Em qual área a tinta será aplicada?"
+            android:fontFamily="@font/poppins_bold"
+            android:textColor="@color/white" />
+        <EditText
+            android:id="@+id/areaAplicacaoField"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Local exato de aplicação"
+            android:fontFamily="@font/poppins_bold"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white" />
+
+        <!-- Nível de Resistência -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3. Qual é o nível de resistência esperado?"
+            android:fontFamily="@font/poppins_bold"
+            android:textColor="@color/white" />
+        <EditText
+            android:id="@+id/nivelResistenciaField"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ex: Calor, umidade, abrasão"
+            android:fontFamily="@font/poppins_bold"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white" />
+
+        <!-- Prazo para o Serviço -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4. Existe algum prazo específico para o serviço?"
+            android:fontFamily="@font/poppins_bold"
+            android:textColor="@color/white" />
+        <EditText
+            android:id="@+id/prazoField"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Informe o prazo final (opcional)"
+            android:fontFamily="@font/poppins_bold"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white" />
+
+        <!-- Orçamento -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5. Qual é o orçamento disponível para o projeto?"
+            android:fontFamily="@font/poppins_bold"
+            android:textColor="@color/white" />
+        <EditText
+            android:id="@+id/orcamentoField"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Valor aproximado ou limite"
+            android:fontFamily="@font/poppins_bold"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white" />
+
+        <!-- Superfície com Revestimento Existente -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="6. A superfície já possui uma tinta ou revestimento?"
+            android:fontFamily="@font/poppins_bold"
+            android:textColor="@color/white" />
+        <EditText
+            android:id="@+id/revestimentoField"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Sim ou não"
+            android:fontFamily="@font/poppins_bold"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white" />
+
+        <!-- Tamanho da Área -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="7. Qual o tamanho aproximado da área a ser pintada?"
+            android:fontFamily="@font/poppins_bold"
+            android:textColor="@color/white" />
+        <EditText
+            android:id="@+id/tamanhoAreaField"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Em metros quadrados"
+            android:fontFamily="@font/poppins_bold"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white" />
+
+        <!-- Acabamento Preferido -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="8. Prefere um acabamento fosco, brilhante ou acetinado?"
+            android:fontFamily="@font/poppins_bold"
+            android:textColor="@color/white" />
+        <EditText
+            android:id="@+id/acabamentoField"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Escolha de acabamento visual"
+            android:fontFamily="@font/poppins_bold"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white" />
+
+        <!-- Frequência de Manutenção -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="9. Qual a frequência de manutenção necessária?"
+            android:fontFamily="@font/poppins_bold"
+            android:textColor="@color/white" />
+        <EditText
+            android:id="@+id/frequenciaManutencaoField"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Informe a frequência (opcional)"
+            android:fontFamily="@font/poppins_bold"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white" />
+
+        <!-- Desafios Ambientais -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10. Quais são os principais desafios ambientais do local?"
+            android:fontFamily="@font/poppins_bold"
+            android:textColor="@color/white" />
+        <EditText
+            android:id="@+id/desafiosAmbientaisField"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ex: Exposição a raios UV, umidade, produtos químicos"
+            android:fontFamily="@font/poppins_bold"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white" />
+
+
+        <LinearLayout
+            android:padding="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal">
+
+            <!-- [Campos de entrada existentes] -->
+
+            <!-- Botão de Envio -->
+            <Button
+                android:id="@+id/submitButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Enviar Informações"
+                android:textColor="@color/white"
+                android:background="@drawable/rounded_button_background"
+                android:fontFamily="@font/poppins_bold"
+                android:layout_marginTop="16dp" />
+
+            <!-- Botão para Falar com Atendente -->
+            <Button
+                android:id="@+id/falarComAtendenteButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Falar com Atendente"
+                android:textColor="@color/white"
+                android:background="@drawable/rounded_button_background"
+                android:fontFamily="@font/poppins_bold"
+                android:layout_marginTop="16dp" />
+
+            <!-- Botão para Sair -->
+            <Button
+                android:id="@+id/sairButton"
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:text="Sair"
+                android:textColor="@color/white"
+                android:background="@drawable/rounded_button_background"
+                android:fontFamily="@font/poppins_bold"
+                android:layout_marginTop="16dp" />
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
