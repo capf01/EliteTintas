@@ -117,17 +117,18 @@
             android:textColor="@color/white"
             android:paddingTop="20dp"
             />
+
+        <!-- Tamanho da Área -->
         <EditText
             android:id="@+id/revestimentoField"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Sim ou não"
-            android:fontFamily="@font/poppins_light"
-            android:textColor="@color/lightwhite"
             android:backgroundTint="@color/yellow"
+            android:fontFamily="@font/poppins_light"
+            android:hint="Sim ou não"
+            android:textColor="@color/lightwhite"
             android:textColorHint="@color/white" />
 
-        <!-- Tamanho da Área -->
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -216,35 +217,39 @@
             <!-- Botão de Envio -->
             <Button
                 android:id="@+id/submitButton"
-                android:layout_width="wrap_content"
+                android:layout_width="180dp"
                 android:layout_height="wrap_content"
                 android:text="Enviar Informações"
                 android:textColor="@color/white"
                 android:background="@drawable/rounded_button_background"
                 android:fontFamily="@font/poppins_bold"
-                android:layout_marginTop="16dp" />
+                android:layout_marginTop="16dp"
+                android:textSize="10sp"
+                />
 
             <!-- Botão para Falar com Atendente -->
             <Button
                 android:id="@+id/falarComAtendenteButton"
-                android:layout_width="wrap_content"
+                android:layout_width="180dp"
                 android:layout_height="wrap_content"
                 android:text="Falar com Atendente"
                 android:textColor="@color/white"
                 android:background="@drawable/rounded_button_background"
                 android:fontFamily="@font/poppins_bold"
+                android:textSize="10sp"
                 android:layout_marginTop="16dp" />
 
             <!-- Botão para Sair -->
             <Button
                 android:id="@+id/sairButton"
-                android:layout_width="220dp"
+                android:layout_width="180dp"
                 android:layout_height="wrap_content"
                 android:text="Sair"
                 android:textColor="@color/white"
                 android:background="@drawable/rounded_button_background"
                 android:fontFamily="@font/poppins_bold"
-                android:layout_marginTop="16dp" />
+                android:layout_marginTop="16dp"
+                android:textSize="10sp"/>
 
         </LinearLayout>
     </LinearLayout>

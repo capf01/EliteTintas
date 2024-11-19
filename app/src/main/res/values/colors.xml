@@ -6,4 +6,8 @@
     <color name="yellow">#f59503</color>
     <color name="dark_blue">#002036</color>
     <color name="darklight_blue">#004B7E</color>
+    <color name="purple_700">#6200EE</color>
+    <color name="teal_200">#03DAC5</color>
+    <color name="purple_200">#893DF4</color>
+    <color name="teal_700">#018786</color>
 </resources>
